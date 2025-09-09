@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d02d9cfb-ee9d-4a5a-93b3-778d97159b95")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "Sigin"
+		(shape input)
+		(at 55.88 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "434235c7-1b10-4bd1-acf4-f5bb6e417b04")
+	)
+)

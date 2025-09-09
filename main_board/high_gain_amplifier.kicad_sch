@@ -1,0 +1,30 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d7c2f38c-305a-49b1-a829-01fc4c794f75")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "Sigout"
+		(shape input)
+		(at 62.23 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46e38969-8872-4163-a882-1631afd8366b")
+	)
+	(hierarchical_label "Sigin"
+		(shape input)
+		(at 43.18 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "edb91b11-bd2e-4430-8234-b3f610a08c09")
+	)
+)
