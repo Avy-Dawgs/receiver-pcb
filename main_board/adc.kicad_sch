@@ -16,4 +16,106 @@
 		)
 		(uuid "434235c7-1b10-4bd1-acf4-f5bb6e417b04")
 	)
+	(sheet
+		(at 78.74 123.19)
+		(size 36.83 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7ed300a2-1c02-42bf-8b9c-2e7216274e56")
+		(property "Sheetname" "ADC_Driver"
+			(at 78.74 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC_Driver.kicad_sch"
+			(at 78.74 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_Vin+" output
+			(at 115.57 128.27 0)
+			(uuid "e9d938b6-6d93-424f-b47d-e057d2ea27ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vcm" input
+			(at 78.74 134.62 180)
+			(uuid "518768ef-b8c7-489d-82aa-4ff1b79cd666")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_in" input
+			(at 78.74 128.27 180)
+			(uuid "59a0f869-2395-4f5e-90b7-fa1dd334d215")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" output
+			(at 78.74 140.97 180)
+			(uuid "4f471935-2b66-483d-b0cf-2d66ab08d6f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_Vin-" output
+			(at 115.57 138.43 0)
+			(uuid "cb3f1bfc-1211-4876-abc7-2f9463e93fe5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5+" input
+			(at 97.79 123.19 90)
+			(uuid "ee96dd48-8bcd-46b0-8a96-37daab76d836")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "main_board"
+				(path "/f3e20914-54f5-4568-9f0b-8875d87df3fb/fe5b295f-1a7f-4343-be09-6f42d71d7bcf"
+					(page "6")
+				)
+			)
+		)
+	)
 )
