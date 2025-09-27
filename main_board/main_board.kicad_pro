@@ -248,7 +248,8 @@
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
-      "LT172x"
+      "LT172x",
+      "AD8031"
     ]
   },
   "meta": {
