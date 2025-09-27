@@ -246,18 +246,10 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "DIfferential_OpAmp",
-      "LMV321"
-    ],
+    "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
       "LT172x",
-<<<<<<< HEAD
       "AD8031"
-=======
-      "Differential_OpAmp",
-      "LMV321"
->>>>>>> b48319fcb5415339490e84d92a6ad94fa2f84ff5
     ]
   },
   "meta": {

@@ -80,29 +80,9 @@
 				(justify left)
 			)
 		)
-		(pin "GND" output
-			(at 78.74 140.97 180)
-			(uuid "4f471935-2b66-483d-b0cf-2d66ab08d6f9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "ADC_Vin-" output
 			(at 115.57 138.43 0)
 			(uuid "cb3f1bfc-1211-4876-abc7-2f9463e93fe5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "5+" input
-			(at 97.79 123.19 90)
-			(uuid "ee96dd48-8bcd-46b0-8a96-37daab76d836")
 			(effects
 				(font
 					(size 1.27 1.27)
