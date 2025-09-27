@@ -7,3 +7,5 @@
 *.raw
 fp_info_cache
 *-backups
+
+.DS_Store
