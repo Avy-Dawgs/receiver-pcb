@@ -5,441 +5,6 @@
 	(uuid "f3e20914-54f5-4568-9f0b-8875d87df3fb")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Analog_Switch:FSA3157L6X"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.175 7.493 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "FSA3157L6X"
-				(at -3.175 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SON:Fairchild_MicroPak-6_1.0x1.45mm_P0.5mm"
-				(at 0.635 -13.335 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NC7SB3157-D.PDF"
-				(at 0.635 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, MicroPak-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "CMOS Analog Switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Fairchild*MicroPak*1.0x1.45mm*P0.5mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FSA3157L6X_1_1"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -2.794 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -3.81 4.445)
-					(end 3.81 -4.445)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -2.159 0)
-					(radius 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.127) (xy 2.54 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.254) (xy 0 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.254) (xy 0 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.254) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 0 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.778) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.794) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.302) (xy 0 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.318) (xy 0 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0 -4.572)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.159 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.159 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 2.794 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 2.794 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "FSA3157L6X_2_0"
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "FSA3157L6X_2_1"
-				(rectangle
-					(start -3.81 10.16)
-					(end 3.81 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -569,6 +134,244 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mux:TS5A4624DCKR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 27.94 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "TS5A4624DCKR"
+				(at 27.94 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "DCK6"
+				(at 27.305 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/ts5a4624"
+				(at 29.845 -13.335 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TS5A4624DCKR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DCK6 DCK6-M DCK6-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TS5A4624DCKR_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 48.26 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.26 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.26 -10.16) (xy 48.26 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 7.62)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 55.88 0 180)
+					(length 7.62)
+					(name "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 55.88 -2.54 180)
+					(length 7.62)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 55.88 -5.08 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -806,6 +609,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "MUX at input to PGA"
+		(exclude_from_sim no)
+		(at 205.74 24.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "16025e17-18b8-4d19-be9d-ca75f517ec32")
+	)
 	(text "TODO: do we need larger (>= 1uF) power supply filtering caps \non every part?"
 		(exclude_from_sim no)
 		(at 125.73 144.018 0)
@@ -815,6 +628,16 @@
 			)
 		)
 		(uuid "30ffa07c-92b9-4364-bc7e-58440a6c710f")
+	)
+	(text "MUX at input to HGA"
+		(exclude_from_sim no)
+		(at 83.058 19.558 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "51f7d543-9f5f-4500-9ddf-b39cd89fadde")
 	)
 	(text "TODO: calculate coupling capacitor values"
 		(exclude_from_sim no)
@@ -826,19 +649,19 @@
 		)
 		(uuid "daaba353-58a0-429b-a57e-48291970cddc")
 	)
-	(text "TODO: maybe find mux with on resistance less than 10 ohm"
-		(exclude_from_sim no)
-		(at 139.7 59.436 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
+	(wire
+		(pts
+			(xy 172.72 41.91) (xy 177.8 41.91)
 		)
-		(uuid "df7285ab-61c4-4c60-9c6e-3549847a2763")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b28d28a-5aef-4a4a-956e-4ab1a3156767")
 	)
 	(wire
 		(pts
-			(xy 82.55 81.28) (xy 87.63 81.28)
+			(xy 49.53 81.28) (xy 54.61 81.28)
 		)
 		(stroke
 			(width 0)
@@ -848,7 +671,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 81.28) (xy 191.77 81.28)
+			(xy 177.8 80.01) (xy 184.15 80.01)
 		)
 		(stroke
 			(width 0)
@@ -858,7 +681,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 81.28) (xy 246.38 81.28)
+			(xy 228.6 80.01) (xy 238.76 80.01)
 		)
 		(stroke
 			(width 0)
@@ -868,7 +691,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 78.74) (xy 105.41 78.74)
+			(xy 90.17 80.01) (xy 92.71 80.01)
 		)
 		(stroke
 			(width 0)
@@ -878,7 +701,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 78.74) (xy 115.57 78.74)
+			(xy 100.33 80.01) (xy 102.87 80.01)
 		)
 		(stroke
 			(width 0)
@@ -888,7 +711,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 81.28) (xy 177.8 81.28)
+			(xy 168.91 80.01) (xy 170.18 80.01)
 		)
 		(stroke
 			(width 0)
@@ -898,37 +721,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 95.25) (xy 158.75 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75dbf9a0-c527-422d-b1bd-fe19532e7843")
-	)
-	(wire
-		(pts
-			(xy 102.87 95.25) (xy 158.75 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9778f081-c744-4389-8b25-22f6595e9145")
-	)
-	(wire
-		(pts
-			(xy 102.87 83.82) (xy 102.87 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f15bc94-799d-49df-ae51-210bd9124f21")
-	)
-	(wire
-		(pts
-			(xy 144.78 78.74) (xy 158.75 78.74)
+			(xy 132.08 80.01) (xy 142.24 80.01)
 		)
 		(stroke
 			(width 0)
@@ -938,7 +731,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 81.28) (xy 228.6 81.28)
+			(xy 213.36 80.01) (xy 220.98 80.01)
 		)
 		(stroke
 			(width 0)
@@ -946,29 +739,139 @@
 		)
 		(uuid "e155006b-fee9-4cd9-bf44-822e7bf96ebf")
 	)
-	(label "Bypass"
-		(at 166.37 88.9 270)
+	(wire
+		(pts
+			(xy 48.26 36.83) (xy 55.88 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e593df05-1a19-48e1-8a5f-6c0e3ca0f68c")
+	)
+	(label "Bypass_sig"
+		(at 233.68 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "27e03ab4-0865-4487-8a75-b98c8de85f94")
+		(uuid "36e1371c-9c7b-41f1-9c69-6a3f639cc445")
+	)
+	(label "HGA_in"
+		(at 111.76 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a27afe4-23cd-4feb-acf0-6241b10e4b37")
 	)
 	(label "Bypass"
-		(at 95.25 88.9 270)
+		(at 111.76 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "4c27d208-f016-4417-ae9f-88f9965bc53c")
 	)
+	(label "Filter_out"
+		(at 54.61 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d67f4f3-41b9-40f7-9474-c70113277347")
+	)
+	(label "Bypass_sig"
+		(at 111.76 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6595f135-c97f-49a9-b353-eb5127b46289")
+	)
+	(label "HGA_out"
+		(at 142.24 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d7fa7bc-589e-4215-a289-a1493477646e")
+	)
+	(label "HGA_in"
+		(at 90.17 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "90a86b00-1281-4c92-b7ab-bf21f0f1cc44")
+	)
+	(label "PGA_in"
+		(at 168.91 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a874b464-47db-4745-bac0-310fc7d34c01")
+	)
+	(label "Filter_out"
+		(at 55.88 34.29 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d421a151-5de1-4ae3-9382-9cbb9b5cde9f")
+	)
+	(label "PGA_in"
+		(at 177.8 39.37 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e08a9ea0-f68e-49ef-a665-7ad7d57370ac")
+	)
+	(label "Bypass"
+		(at 233.68 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e382cd6e-e85e-4712-83cb-dfdd160a0f7b")
+	)
+	(label "HGA_out"
+		(at 233.68 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc101048-195b-4325-bca7-9be9d97d3437")
+	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 179.07 22.86 0)
+		(at 172.72 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -977,7 +880,7 @@
 		(fields_autoplaced yes)
 		(uuid "0793b679-df72-4d40-94c2-9d171af27608")
 		(property "Reference" "#PWR013"
-			(at 179.07 26.67 0)
+			(at 172.72 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -986,7 +889,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 179.07 17.78 0)
+			(at 172.72 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -994,7 +897,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 22.86 0)
+			(at 172.72 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1003,7 +906,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 22.86 0)
+			(at 172.72 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1012,7 +915,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 179.07 22.86 0)
+			(at 172.72 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1034,7 +937,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 101.6 24.13 0)
+		(at 48.26 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1043,7 +946,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ee30fc3-6510-4840-bc95-46947fb102fc")
 		(property "Reference" "#PWR015"
-			(at 101.6 27.94 0)
+			(at 48.26 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1052,7 +955,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 101.6 19.05 0)
+			(at 48.26 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1060,7 +963,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 24.13 0)
+			(at 48.26 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1069,7 +972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 24.13 0)
+			(at 48.26 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1078,7 +981,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 101.6 24.13 0)
+			(at 48.26 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1100,7 +1003,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 49.53 0)
+		(at 55.88 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1109,7 +1012,7 @@
 		(fields_autoplaced yes)
 		(uuid "71d313d1-12da-40a2-8460-456ef97170ca")
 		(property "Reference" "#PWR014"
-			(at 101.6 55.88 0)
+			(at 55.88 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1118,7 +1021,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 54.61 0)
+			(at 55.88 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1126,7 +1029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 49.53 0)
+			(at 55.88 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1135,7 +1038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 49.53 0)
+			(at 55.88 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1144,7 +1047,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 49.53 0)
+			(at 55.88 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1165,8 +1068,172 @@
 		)
 	)
 	(symbol
+		(lib_id "Mux:TS5A4624DCKR")
+		(at 177.8 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "772724fe-b7e6-40aa-8d1d-155f7e5f486a")
+		(property "Reference" "U4"
+			(at 205.74 29.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TS5A4624DCKR"
+			(at 205.74 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "DCK6"
+			(at 205.105 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/ts5a4624"
+			(at 207.645 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a36dbdb-4848-454e-8cab-f557e58dce4d")
+		)
+		(pin "4"
+			(uuid "f1ceea23-2b8c-4ba0-9e0a-f910698e3704")
+		)
+		(pin "3"
+			(uuid "3b9ac7db-5912-4fb6-9e6d-966d7091fa06")
+		)
+		(pin "6"
+			(uuid "48327030-0f9e-4fbc-99c1-3e5000a59a82")
+		)
+		(pin "5"
+			(uuid "eb20e1fd-3848-4331-8799-34328ec41469")
+		)
+		(pin "2"
+			(uuid "14bec7d8-cc2d-466c-bd0b-0cafe1c9c85c")
+		)
+		(instances
+			(project "main_board"
+				(path "/f3e20914-54f5-4568-9f0b-8875d87df3fb"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mux:TS5A4624DCKR")
+		(at 55.88 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a149081-80b3-4252-a94c-b3674b24caf3")
+		(property "Reference" "U2"
+			(at 83.82 24.13 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TS5A4624DCKR"
+			(at 83.82 26.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "DCK6"
+			(at 83.185 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/ts5a4624"
+			(at 85.725 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3541a73-6222-4b42-bd3e-358b7b1675e6")
+		)
+		(pin "4"
+			(uuid "5f852c0c-f9ec-41b9-ba6b-c9dac7083238")
+		)
+		(pin "3"
+			(uuid "fae7d6f5-d370-46ca-9b90-ed369864cbfa")
+		)
+		(pin "6"
+			(uuid "b79bff62-896f-406b-8ad0-6026177c84ba")
+		)
+		(pin "5"
+			(uuid "0530ed8d-1f7b-47a9-b428-c315f5674c95")
+		)
+		(pin "2"
+			(uuid "63db844a-52df-41c0-9fa4-9b7fce0606be")
+		)
+		(instances
+			(project ""
+				(path "/f3e20914-54f5-4568-9f0b-8875d87df3fb"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 181.61 81.28 90)
+		(at 173.99 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1175,7 +1242,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d9e9474-7589-42e8-877d-eaaaee960ffb")
 		(property "Reference" "C6"
-			(at 181.61 73.66 90)
+			(at 173.99 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1183,7 +1250,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 181.61 76.2 90)
+			(at 173.99 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1191,7 +1258,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 80.3148 0)
+			(at 177.8 79.0448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1200,7 +1267,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 81.28 0)
+			(at 173.99 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1209,7 +1276,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 181.61 81.28 0)
+			(at 173.99 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1233,90 +1300,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Analog_Switch:FSA3157L6X")
-		(at 95.25 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83c8df73-22d4-463a-8b1b-4664e01611c6")
-		(property "Reference" "U4"
-			(at 95.25 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FSA3157L6X"
-			(at 95.25 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SON:Fairchild_MicroPak-6_1.0x1.45mm_P0.5mm"
-			(at 95.885 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NC7SB3157-D.PDF"
-			(at 95.885 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, MicroPak-6"
-			(at 95.25 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "6ae18da1-a412-4179-8cad-1809caf281d1")
-		)
-		(pin "1"
-			(uuid "77d61941-cc22-47e7-b30e-57e10bbf6a98")
-		)
-		(pin "4"
-			(uuid "1ba9d390-98d8-4570-993e-dee29ba61de7")
-		)
-		(pin "2"
-			(uuid "35c82ac0-0480-4cc5-b1f6-afb6b621aa9c")
-		)
-		(pin "3"
-			(uuid "bc68f8f3-a117-47d8-9b17-601272cba254")
-		)
-		(pin "5"
-			(uuid "60da8460-ffb0-4b99-bc4d-4bfabfbdfd44")
-		)
-		(instances
-			(project ""
-				(path "/f3e20914-54f5-4568-9f0b-8875d87df3fb"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 109.22 78.74 90)
+		(at 96.52 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1325,7 +1310,7 @@
 		(fields_autoplaced yes)
 		(uuid "8572578b-e8ac-4057-b2db-9cf89130b213")
 		(property "Reference" "C8"
-			(at 109.22 71.12 90)
+			(at 96.52 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1333,7 +1318,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 109.22 73.66 90)
+			(at 96.52 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1341,7 +1326,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 77.7748 0)
+			(at 100.33 79.0448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1350,7 +1335,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 78.74 0)
+			(at 96.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1359,7 +1344,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 109.22 78.74 0)
+			(at 96.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1384,7 +1369,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 48.26 0)
+		(at 177.8 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1393,7 +1378,7 @@
 		(fields_autoplaced yes)
 		(uuid "908e6e8c-dc24-4e42-a470-97ce5926d73a")
 		(property "Reference" "#PWR012"
-			(at 179.07 54.61 0)
+			(at 177.8 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1402,7 +1387,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 53.34 0)
+			(at 177.8 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1410,7 +1395,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 48.26 0)
+			(at 177.8 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1419,7 +1404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 48.26 0)
+			(at 177.8 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1428,7 +1413,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 48.26 0)
+			(at 177.8 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1449,259 +1434,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Analog_Switch:FSA3157L6X")
-		(at 179.07 35.56 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a24f66c6-c783-41cd-ae64-d164d564c826")
-		(property "Reference" "U2"
-			(at 184.15 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FSA3157L6X"
-			(at 184.15 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SON:Fairchild_MicroPak-6_1.0x1.45mm_P0.5mm"
-			(at 179.705 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NC7SB3157-D.PDF"
-			(at 179.705 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, MicroPak-6"
-			(at 179.07 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "0cce7564-23bd-4d0d-8024-4fc3a1f57ff9")
-		)
-		(pin "3"
-			(uuid "87f3984f-f0d0-4d8d-ba2c-1b38b55952da")
-		)
-		(pin "1"
-			(uuid "2880eb3b-9e04-4be2-a5ef-b3db7dcf17bc")
-		)
-		(pin "5"
-			(uuid "d956d83e-de81-46f3-bc23-4dd1f2d3e2f3")
-		)
-		(pin "4"
-			(uuid "3d13c254-34b5-47eb-a9b1-90d1a6e01630")
-		)
-		(pin "2"
-			(uuid "6b636f71-47a2-4e0b-8867-53db319e6803")
-		)
-		(instances
-			(project ""
-				(path "/f3e20914-54f5-4568-9f0b-8875d87df3fb"
-					(reference "U2")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Analog_Switch:FSA3157L6X")
-		(at 166.37 81.28 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aae39dea-62a1-4ab0-8c7e-ce1ab43329a5")
-		(property "Reference" "U2"
-			(at 166.37 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FSA3157L6X"
-			(at 166.37 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SON:Fairchild_MicroPak-6_1.0x1.45mm_P0.5mm"
-			(at 165.735 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NC7SB3157-D.PDF"
-			(at 165.735 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, MicroPak-6"
-			(at 166.37 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "0cce7564-23bd-4d0d-8024-4fc3a1f57ffa")
-		)
-		(pin "3"
-			(uuid "87f3984f-f0d0-4d8d-ba2c-1b38b55952db")
-		)
-		(pin "1"
-			(uuid "2880eb3b-9e04-4be2-a5ef-b3db7dcf17bd")
-		)
-		(pin "5"
-			(uuid "d956d83e-de81-46f3-bc23-4dd1f2d3e2f4")
-		)
-		(pin "4"
-			(uuid "3d13c254-34b5-47eb-a9b1-90d1a6e01631")
-		)
-		(pin "2"
-			(uuid "6b636f71-47a2-4e0b-8867-53db319e6804")
-		)
-		(instances
-			(project ""
-				(path "/f3e20914-54f5-4568-9f0b-8875d87df3fb"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Analog_Switch:FSA3157L6X")
-		(at 101.6 36.83 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c28a4e88-b246-4982-8865-afffb19ec0ad")
-		(property "Reference" "U4"
-			(at 106.68 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FSA3157L6X"
-			(at 106.68 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SON:Fairchild_MicroPak-6_1.0x1.45mm_P0.5mm"
-			(at 102.235 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NC7SB3157-D.PDF"
-			(at 102.235 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, MicroPak-6"
-			(at 101.6 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "6ae18da1-a412-4179-8cad-1809caf281d2")
-		)
-		(pin "1"
-			(uuid "77d61941-cc22-47e7-b30e-57e10bbf6a99")
-		)
-		(pin "4"
-			(uuid "1ba9d390-98d8-4570-993e-dee29ba61de8")
-		)
-		(pin "2"
-			(uuid "35c82ac0-0480-4cc5-b1f6-afb6b621aa9d")
-		)
-		(pin "3"
-			(uuid "bc68f8f3-a117-47d8-9b17-601272cba255")
-		)
-		(pin "5"
-			(uuid "60da8460-ffb0-4b99-bc4d-4bfabfbdfd45")
-		)
-		(instances
-			(project ""
-				(path "/f3e20914-54f5-4568-9f0b-8875d87df3fb"
-					(reference "U4")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 232.41 81.28 90)
+		(at 224.79 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1710,7 +1444,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd8d43ce-c174-4382-9a8c-f024febdac5f")
 		(property "Reference" "C7"
-			(at 232.41 73.66 90)
+			(at 224.79 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,7 +1452,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 232.41 76.2 90)
+			(at 224.79 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1726,7 +1460,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 80.3148 0)
+			(at 228.6 79.0448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1735,7 +1469,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 81.28 0)
+			(at 224.79 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1744,7 +1478,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 232.41 81.28 0)
+			(at 224.79 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1768,7 +1502,7 @@
 		)
 	)
 	(sheet
-		(at 115.57 72.39)
+		(at 102.87 73.66)
 		(size 29.21 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1784,7 +1518,7 @@
 		)
 		(uuid "1f0a376f-8bae-4922-a9e6-a3843a090519")
 		(property "Sheetname" "High Gain Amplifier"
-			(at 115.57 71.6784 0)
+			(at 102.87 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1793,7 +1527,7 @@
 			)
 		)
 		(property "Sheetfile" "high_gain_amplifier.kicad_sch"
-			(at 115.57 85.6746 0)
+			(at 102.87 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,7 +1536,7 @@
 			)
 		)
 		(pin "Sigin" input
-			(at 115.57 78.74 180)
+			(at 102.87 80.01 180)
 			(uuid "8598d27f-f73c-448b-91f5-2607193ce5de")
 			(effects
 				(font
@@ -1812,7 +1546,7 @@
 			)
 		)
 		(pin "Sigout" input
-			(at 144.78 78.74 0)
+			(at 132.08 80.01 0)
 			(uuid "34859dab-465f-4f43-b986-7c1ba2ee9046")
 			(effects
 				(font
@@ -1830,7 +1564,7 @@
 		)
 	)
 	(sheet
-		(at 53.34 73.66)
+		(at 20.32 73.66)
 		(size 29.21 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1846,7 +1580,7 @@
 		)
 		(uuid "4b72c036-9d03-4219-91da-5718aacb6260")
 		(property "Sheetname" "Filter"
-			(at 53.34 72.9484 0)
+			(at 20.32 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1855,7 +1589,7 @@
 			)
 		)
 		(property "Sheetfile" "filter.kicad_sch"
-			(at 53.34 86.9446 0)
+			(at 20.32 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1864,7 +1598,7 @@
 			)
 		)
 		(pin "Sigin" input
-			(at 53.34 81.28 180)
+			(at 20.32 81.28 180)
 			(uuid "6989846b-182b-4d13-9805-69701de2f762")
 			(effects
 				(font
@@ -1874,7 +1608,7 @@
 			)
 		)
 		(pin "Sigout" input
-			(at 82.55 81.28 0)
+			(at 49.53 81.28 0)
 			(uuid "dd7566be-824d-43f1-b997-86cbe7386956")
 			(effects
 				(font
@@ -1892,7 +1626,7 @@
 		)
 	)
 	(sheet
-		(at 191.77 76.2)
+		(at 184.15 74.93)
 		(size 29.21 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1908,7 +1642,7 @@
 		)
 		(uuid "688afa7e-43ea-474b-a3ed-6d9b25c48239")
 		(property "Sheetname" "PGA"
-			(at 191.77 75.4884 0)
+			(at 184.15 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1917,7 +1651,7 @@
 			)
 		)
 		(property "Sheetfile" "pga.kicad_sch"
-			(at 191.77 95.8346 0)
+			(at 184.15 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1926,7 +1660,7 @@
 			)
 		)
 		(pin "Sigin" input
-			(at 191.77 81.28 180)
+			(at 184.15 80.01 180)
 			(uuid "77b02432-fb94-47d4-ac1c-289c40775bbd")
 			(effects
 				(font
@@ -1936,7 +1670,7 @@
 			)
 		)
 		(pin "Sigout" input
-			(at 220.98 81.28 0)
+			(at 213.36 80.01 0)
 			(uuid "95b33db0-13be-4cbc-9b2d-86448484a675")
 			(effects
 				(font
@@ -1946,7 +1680,7 @@
 			)
 		)
 		(pin "Pot_CLK" input
-			(at 191.77 87.63 180)
+			(at 184.15 86.36 180)
 			(uuid "cbd41c42-be93-494d-9d02-935d2132f982")
 			(effects
 				(font
@@ -1956,7 +1690,7 @@
 			)
 		)
 		(pin "Pot_CS" input
-			(at 191.77 92.71 180)
+			(at 184.15 91.44 180)
 			(uuid "93c47457-62c1-4528-8b4d-965c5a36a167")
 			(effects
 				(font
@@ -1966,7 +1700,7 @@
 			)
 		)
 		(pin "Pot_SDI" input
-			(at 191.77 90.17 180)
+			(at 184.15 88.9 180)
 			(uuid "75e9326f-36c2-47c3-882f-ec605d1946c2")
 			(effects
 				(font
@@ -1984,7 +1718,7 @@
 		)
 	)
 	(sheet
-		(at 246.38 74.93)
+		(at 238.76 73.66)
 		(size 29.21 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2000,7 +1734,7 @@
 		)
 		(uuid "fe5b295f-1a7f-4343-be09-6f42d71d7bcf")
 		(property "Sheetname" "ADC"
-			(at 246.38 74.2184 0)
+			(at 238.76 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2009,7 +1743,7 @@
 			)
 		)
 		(property "Sheetfile" "adc.kicad_sch"
-			(at 246.38 86.9446 0)
+			(at 238.76 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2018,7 +1752,7 @@
 			)
 		)
 		(pin "Sigin" input
-			(at 246.38 81.28 180)
+			(at 238.76 80.01 180)
 			(uuid "1341bc23-02a3-402d-909d-d695697170cc")
 			(effects
 				(font

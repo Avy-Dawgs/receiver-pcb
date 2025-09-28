@@ -4,4 +4,5 @@
   (lib (name "AD8031")(type "KiCad")(uri "${KIPRJMOD}/AD8031.kicad_sym")(options "")(descr ""))
   (lib (name "Differential_OpAmp")(type "KiCad")(uri "${KIPRJMOD}/Differential_OpAmp.kicad_sym")(options "")(descr ""))
   (lib (name "LMV321")(type "KiCad")(uri "${KIPRJMOD}/LMV321.kicad_sym")(options "")(descr ""))
+  (lib (name "Mux")(type "KiCad")(uri "${KIPRJMOD}/Mux.kicad_sym")(options "")(descr ""))
 )

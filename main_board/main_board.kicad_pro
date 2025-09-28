@@ -249,7 +249,8 @@
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
       "LT172x",
-      "AD8031"
+      "AD8031",
+      "Mux"
     ]
   },
   "meta": {
