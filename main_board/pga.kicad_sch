@@ -978,16 +978,6 @@
 		)
 		(uuid "03a490bd-2e97-4c08-a3cf-3478c97b9b37")
 	)
-	(text "TODO: This is the first single channel pot I found on KiCAD\nthat makes sense, need to check it in more detail."
-		(exclude_from_sim no)
-		(at 97.536 117.602 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d0e5416f-2186-4dde-9f2c-b353bbe27520")
-	)
 	(junction
 		(at 233.68 101.6)
 		(diameter 0)
