@@ -639,6 +639,16 @@
 		)
 		(uuid "51f7d543-9f5f-4500-9ddf-b39cd89fadde")
 	)
+	(text "TODO: likely need to bias all signals touching the MUXs because they \ncan only handle GND to +5V"
+		(exclude_from_sim no)
+		(at 128.778 54.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cbfdc994-2638-4906-9550-4e0b3d81e384")
+	)
 	(text "TODO: calculate coupling capacitor values"
 		(exclude_from_sim no)
 		(at 117.602 117.348 0)
