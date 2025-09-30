@@ -250,7 +250,10 @@
     "pinned_symbol_libs": [
       "LT172x",
       "AD8031",
-      "Mux"
+      "Mux",
+      "LTC2315_ADC_12",
+      "LT1818_OP_AMP",
+      "BAT54_Schottky_Diode"
     ]
   },
   "meta": {
