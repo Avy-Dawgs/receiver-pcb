@@ -619,6 +619,16 @@
 		)
 		(uuid "16025e17-18b8-4d19-be9d-ca75f517ec32")
 	)
+	(text "IOS needed: \n\nADC SPI Interface\nPGA SPI Interface \nHGA Bypass \nPower / Ground"
+		(exclude_from_sim no)
+		(at 44.704 129.032 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3ccab417-a732-42af-a956-c86cdd5315f2")
+	)
 	(text "MUX at input to HGA"
 		(exclude_from_sim no)
 		(at 83.058 19.558 0)
@@ -705,7 +715,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 81.28) (xy 54.61 81.28)
+			(xy 59.69 80.01) (xy 64.77 80.01)
 		)
 		(stroke
 			(width 0)
@@ -854,7 +864,7 @@
 		(uuid "4c27d208-f016-4417-ae9f-88f9965bc53c")
 	)
 	(label "Filter_out"
-		(at 54.61 81.28 0)
+		(at 64.77 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1980,7 +1990,7 @@
 		)
 	)
 	(sheet
-		(at 20.32 73.66)
+		(at 30.48 72.39)
 		(size 29.21 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1996,7 +2006,7 @@
 		)
 		(uuid "4b72c036-9d03-4219-91da-5718aacb6260")
 		(property "Sheetname" "Filter"
-			(at 20.32 72.9484 0)
+			(at 30.48 71.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2005,7 +2015,7 @@
 			)
 		)
 		(property "Sheetfile" "filter.kicad_sch"
-			(at 20.32 86.9446 0)
+			(at 30.48 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2014,7 +2024,7 @@
 			)
 		)
 		(pin "Sigin" input
-			(at 20.32 81.28 180)
+			(at 30.48 80.01 180)
 			(uuid "6989846b-182b-4d13-9805-69701de2f762")
 			(effects
 				(font
@@ -2024,7 +2034,7 @@
 			)
 		)
 		(pin "Sigout" input
-			(at 49.53 81.28 0)
+			(at 59.69 80.01 0)
 			(uuid "dd7566be-824d-43f1-b997-86cbe7386956")
 			(effects
 				(font
