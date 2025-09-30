@@ -2177,6 +2177,46 @@
 				(justify left)
 			)
 		)
+		(pin "CS_bar" input
+			(at 267.97 76.2 0)
+			(uuid "d5d88c66-12c2-4a83-b0b8-0eeb5996969c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCK" input
+			(at 267.97 78.74 0)
+			(uuid "e72944b1-7ae1-4502-8594-044abc7225a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Serial_Data_Out" output
+			(at 267.97 81.28 0)
+			(uuid "8ed6b8b1-f531-4525-8ebb-5fe18c0b94ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IO_Interface_Digital_Power" bidirectional
+			(at 246.38 85.09 270)
+			(uuid "e83bc846-7b0a-4858-83fc-2eb4915a58cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "main_board"
 				(path "/f3e20914-54f5-4568-9f0b-8875d87df3fb"

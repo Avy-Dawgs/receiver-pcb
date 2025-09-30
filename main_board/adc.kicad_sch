@@ -1400,6 +1400,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 138.43) (xy 35.56 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74686c61-a672-4543-b792-13581e18a636")
+	)
+	(wire
+		(pts
 			(xy 78.74 135.89) (xy 78.74 119.38)
 		)
 		(stroke
@@ -1427,6 +1437,16 @@
 			(type default)
 		)
 		(uuid "9c10442a-b2e6-41f2-91a4-f4ab1ef64e88")
+	)
+	(wire
+		(pts
+			(xy 31.75 142.24) (xy 35.56 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fd2dc80-7b88-4619-a508-855600239079")
 	)
 	(wire
 		(pts
@@ -1621,17 +1641,6 @@
 			(justify left)
 		)
 		(uuid "8f4002ca-d652-4d43-9110-50a58467b175")
-	)
-	(hierarchical_label "+5V"
-		(shape input)
-		(at 35.56 138.43 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8fef0ead-3440-4634-a9ec-a0d098cdd57f")
 	)
 	(hierarchical_label "SCK"
 		(shape input)
@@ -2202,6 +2211,72 @@
 			(project ""
 				(path "/f3e20914-54f5-4568-9f0b-8875d87df3fb/fe5b295f-1a7f-4343-be09-6f42d71d7bcf"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 31.75 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c10837a-a1c6-47e8-ac39-1194c79f45b7")
+		(property "Reference" "#PWR028"
+			(at 31.75 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 31.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 31.75 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99deca12-6d28-4a27-941c-7428613bba28")
+		)
+		(instances
+			(project ""
+				(path "/f3e20914-54f5-4568-9f0b-8875d87df3fb/fe5b295f-1a7f-4343-be09-6f42d71d7bcf"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
