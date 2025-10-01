@@ -829,7 +829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 160.782 87.63 90)
 			(effects
 				(font
@@ -965,7 +965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 178.562 82.55 90)
 			(effects
 				(font
@@ -1101,7 +1101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 178.562 107.95 90)
 			(effects
 				(font
@@ -1171,7 +1171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 182.88 88.9 0)
 			(effects
 				(font
@@ -1271,7 +1271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 178.562 100.33 90)
 			(effects
 				(font
@@ -1341,7 +1341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 160.782 95.25 90)
 			(effects
 				(font
@@ -1477,7 +1477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 192.7352 111.76 0)
 			(effects
 				(font
