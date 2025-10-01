@@ -452,7 +452,8 @@
       "AD8031",
       "Mux",
       "LT1818",
-      "LTC2315"
+      "LTC2315",
+      "footprints"
     ],
     "pinned_symbol_libs": [
       "LT172x",
