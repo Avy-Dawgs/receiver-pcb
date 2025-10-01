@@ -145,6 +145,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO: are 0603 footprints good for resistors??"
+		(exclude_from_sim no)
+		(at 60.452 160.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9823c3ed-ff94-4b65-809a-757d89013cf0")
+	)
 	(text "TODO: make custom symbol/footprint for capacitors to tune antenna"
 		(exclude_from_sim no)
 		(at 72.136 143.764 0)
