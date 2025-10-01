@@ -145,16 +145,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO: find part to replace BF826 in original design since \nits now obsolete"
-		(exclude_from_sim no)
-		(at 69.342 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "730d2d73-d1c0-4301-9801-f4e8b20ddab8")
-	)
 	(text "TODO: make custom symbol/footprint for capacitors to tune antenna"
 		(exclude_from_sim no)
 		(at 72.136 143.764 0)
@@ -177,6 +167,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 96.52) (xy 175.26 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b79461-be09-4840-ba3b-d0e847ba2790")
+	)
+	(wire
+		(pts
 			(xy 124.46 96.52) (xy 130.81 96.52)
 		)
 		(stroke
@@ -184,6 +184,74 @@
 			(type default)
 		)
 		(uuid "e3c2b1c8-b324-474c-95b0-b9f670f3a15b")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 179.07 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ac054cb-9f1f-4476-bd9c-5aa17a71bdb8")
+		(property "Reference" "C2"
+			(at 179.07 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 179.07 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 95.5548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 179.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "732da63e-5631-413d-93b6-b6af1018990d")
+		)
+		(pin "1"
+			(uuid "d0cb4bdf-cd87-449b-925f-a626c0e752e4")
+		)
+		(instances
+			(project ""
+				(path "/c07072f1-c9e3-48f9-9b82-810fab6a13ee"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")

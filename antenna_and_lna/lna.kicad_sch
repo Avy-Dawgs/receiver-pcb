@@ -705,16 +705,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "after selecting transistor: verify values (should do simulation \nin analog prototyping repo)"
-		(exclude_from_sim no)
-		(at 170.942 130.048 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4fea5a95-b827-4f2f-b038-d1edbcd82074")
-	)
 	(junction
 		(at 180.34 104.14)
 		(diameter 0)
@@ -830,7 +820,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9k"
+		(property "Value" "8.87k"
 			(at 165.1 88.8999 0)
 			(effects
 				(font
@@ -966,7 +956,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "499"
 			(at 182.88 83.8199 0)
 			(effects
 				(font
@@ -1102,7 +1092,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20"
+		(property "Value" "124"
 			(at 182.88 109.2199 0)
 			(effects
 				(font
@@ -1172,7 +1162,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NJFET"
+		(property "Value" "2SK3557"
 			(at 182.88 92.7099 0)
 			(effects
 				(font
@@ -1190,7 +1180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_JFETs"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/2sk3557-d.pdf"
 			(at 177.8 91.44 0)
 			(effects
 				(font
@@ -1272,7 +1262,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "80"
+		(property "Value" "124"
 			(at 182.88 101.5999 0)
 			(effects
 				(font
@@ -1342,7 +1332,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "750"
+		(property "Value" "1.21k"
 			(at 165.1 96.5199 0)
 			(effects
 				(font
@@ -1478,7 +1468,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 195.58 109.2199 0)
 			(effects
 				(font
