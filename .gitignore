@@ -5,7 +5,7 @@
 *.kicad_prl
 *.lck
 *.raw
-fp_info_cache
+fp-info-cache
 *-backups
 
 .DS_Store
