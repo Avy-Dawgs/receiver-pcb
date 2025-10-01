@@ -453,7 +453,8 @@
       "Mux",
       "LT1818",
       "LTC2315",
-      "footprints"
+      "footprints",
+      "Cmod_S7"
     ],
     "pinned_symbol_libs": [
       "LT172x",

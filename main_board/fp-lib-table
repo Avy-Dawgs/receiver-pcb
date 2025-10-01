@@ -7,4 +7,5 @@
   (lib (name "Mux")(type "KiCad")(uri "${KIPRJMOD}/footprints/Mux.pretty")(options "")(descr ""))
   (lib (name "LT1818")(type "KiCad")(uri "${KIPRJMOD}/footprints/LT1818.pretty")(options "")(descr ""))
   (lib (name "LTC2315")(type "KiCad")(uri "${KIPRJMOD}/footprints/LTC2315.pretty")(options "")(descr ""))
+  (lib (name "Cmod_S7")(type "KiCad")(uri "${KIPRJMOD}/footprints/Cmod_S7.pretty")(options "")(descr ""))
 )

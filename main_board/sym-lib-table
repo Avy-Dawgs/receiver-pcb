@@ -5,4 +5,5 @@
   (lib (name "Differential_OpAmp")(type "KiCad")(uri "${KIPRJMOD}/symbols/Differential_OpAmp.kicad_sym")(options "")(descr ""))
   (lib (name "LMV321")(type "KiCad")(uri "${KIPRJMOD}/symbols/LMV321.kicad_sym")(options "")(descr ""))
   (lib (name "Mux")(type "KiCad")(uri "${KIPRJMOD}/symbols/Mux.kicad_sym")(options "")(descr ""))
+  (lib (name "Cmod_S7")(type "KiCad")(uri "${KIPRJMOD}/symbols/Cmod_S7.kicad_sym")(options "")(descr ""))
 )
