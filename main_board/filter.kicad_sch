@@ -4,7 +4,222 @@
 	(generator_version "9.0")
 	(uuid "c66c9cb8-45e6-4fbe-ab0b-296da5e45b7d")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "bp_filter:457k_bandpass_filter"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "457k_bandpass_filter_0_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 6.35)
+					(mid -1.533 7.5111)
+					(end 0 7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 5.08)
+					(mid -1.533 6.2411)
+					(end 0 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 3.81)
+					(mid -1.533 4.9711)
+					(end 0 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 1.27 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 6.35)
+					(mid 1.007 6.4589)
+					(end 0 7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 5.08)
+					(mid 1.007 5.1889)
+					(end 0 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 3.81)
+					(mid 1.007 3.9189)
+					(end 0 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "457k_bandpass_filter_1_1"
+				(pin input line
+					(at -7.62 7.62 180)
+					(length 2.54)
+					(name "input"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -7.62 2.54 180)
+					(length 2.54)
+					(name "output"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 6.35 0)
+					(length 2.54)
+					(name "ground"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
 	(hierarchical_label "Sigout"
 		(shape input)
 		(at 54.61 107.95 0)
@@ -26,5 +241,76 @@
 			(justify right)
 		)
 		(uuid "dff9b477-1779-4a16-85ae-21127e4ba67c")
+	)
+	(symbol
+		(lib_id "bp_filter:457k_bandpass_filter")
+		(at 48.26 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "557541bb-bbe9-4a0f-bbe4-85ce9aeee24d")
+		(property "Reference" "FL1"
+			(at 48.26 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 48.26 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c7f842b-9aed-4eed-a29f-226e19007103")
+		)
+		(pin "2"
+			(uuid "e694e519-b382-4ccb-a9b3-e3db1869a575")
+		)
+		(pin "3"
+			(uuid "e57793c4-b957-4c65-b030-cad1f050e5c0")
+		)
+		(instances
+			(project ""
+				(path "/f3e20914-54f5-4568-9f0b-8875d87df3fb/4b72c036-9d03-4219-91da-5718aacb6260"
+					(reference "FL1")
+					(unit 1)
+				)
+			)
+		)
 	)
 )
