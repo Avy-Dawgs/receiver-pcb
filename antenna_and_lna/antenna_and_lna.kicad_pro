@@ -447,8 +447,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "custom"
+    ],
+    "pinned_symbol_libs": [
+      "custom"
+    ]
   },
   "meta": {
     "filename": "antenna_and_lna.kicad_pro",
