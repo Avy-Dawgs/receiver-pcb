@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 0 -5.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "12f7dec4-1ee9-4b8b-9256-01088701a02e")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "Tuning_Cap"
-		(at 0 1 0)
+		(at 0 -4.1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "4e880f12-8b74-446b-88c4-6633c707f62c")
@@ -55,8 +55,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -22.1 4.6)
-		(end 34.2 21.2)
+		(start -6.5 -0.9)
+		(end 6.4 2.45)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -66,7 +66,7 @@
 		(uuid "d20e822f-5e25-41c6-aec4-003d4be7d059")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 -2.6 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f5a408b7-88c8-45ac-929a-5f50c3b01c5a")
@@ -78,15 +78,15 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at 6.1 8.1)
-		(size 55.2 5.8)
+		(at 0 0)
+		(size 12 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.03125)
 		(uuid "0a2537b4-2c07-4ba5-bcce-156494a0db25")
 	)
 	(pad "2" smd roundrect
-		(at 6 17.7)
-		(size 55.2 5.8)
+		(at 0 1.6)
+		(size 12 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.03125)
 		(uuid "be2c1610-47b3-49c3-9225-920747fa02fc")
