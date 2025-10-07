@@ -101,6 +101,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -458,8 +459,7 @@
       "BAT54_Schottky_Diode",
       "bp_filter",
       "step_down_converter",
-      "SMA_MALE_connector",
-      "linear_regulartor"
+      "Cmod_S7"
     ]
   },
   "meta": {
@@ -644,7 +644,7 @@
     ],
     [
       "b34fef32-43cc-43f6-b767-49ac2b6d6756",
-      "step_down_converter"
+      "power"
     ]
   ],
   "text_variables": {}
