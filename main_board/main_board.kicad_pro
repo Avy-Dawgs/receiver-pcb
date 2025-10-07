@@ -458,7 +458,8 @@
       "BAT54_Schottky_Diode",
       "bp_filter",
       "step_down_converter",
-      "SMA_MALE_connector"
+      "SMA_MALE_connector",
+      "linear_regulartor"
     ]
   },
   "meta": {
