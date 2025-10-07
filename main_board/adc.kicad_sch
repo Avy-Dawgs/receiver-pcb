@@ -1160,6 +1160,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "NEEDS BIASING"
+		(exclude_from_sim no)
+		(at 44.958 103.378 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "d547f7be-8f9a-40f0-abec-a47f71f76bbb")
+	)
 	(junction
 		(at 105.41 138.43)
 		(diameter 0)

@@ -101,6 +101,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -457,7 +458,8 @@
       "LT1818_OP_AMP",
       "BAT54_Schottky_Diode",
       "bp_filter",
-      "step_down_converter"
+      "step_down_converter",
+      "Cmod_S7"
     ]
   },
   "meta": {
