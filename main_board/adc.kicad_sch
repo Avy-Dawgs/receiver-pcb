@@ -1103,16 +1103,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 135.89) (xy 214.63 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "246b3c25-4bea-47e7-858f-7eb4d5ab0163")
-	)
-	(wire
-		(pts
 			(xy 90.17 149.86) (xy 90.17 138.43)
 		)
 		(stroke
@@ -1143,6 +1133,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 135.89) (xy 257.81 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "388424ae-fd10-4081-859e-f26b06501429")
+	)
+	(wire
+		(pts
 			(xy 140.97 121.92) (xy 148.59 121.92)
 		)
 		(stroke
@@ -1170,6 +1170,16 @@
 			(type default)
 		)
 		(uuid "49c161c4-b079-4bf4-bdbb-0a392957e991")
+	)
+	(wire
+		(pts
+			(xy 204.47 135.89) (xy 240.03 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc77b75-ad71-4b4f-b14d-39c4464aef99")
 	)
 	(wire
 		(pts
@@ -1455,7 +1465,7 @@
 	)
 	(hierarchical_label "Serial_Data_Out"
 		(shape output)
-		(at 214.63 135.89 0)
+		(at 257.81 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1613,6 +1623,74 @@
 			(project "main_board"
 				(path "/f3e20914-54f5-4568-9f0b-8875d87df3fb/fe5b295f-1a7f-4343-be09-6f42d71d7bcf"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 243.84 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eb6f5b1-7702-4e3c-bc81-d01b79334f35")
+		(property "Reference" "R14"
+			(at 243.84 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 243.84 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 137.668 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 243.84 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ac6ac25-8d87-48d9-8d9b-fa9063c35f8e")
+		)
+		(pin "2"
+			(uuid "ed5357d6-ab21-4f4e-beeb-e3ea26030904")
+		)
+		(instances
+			(project ""
+				(path "/f3e20914-54f5-4568-9f0b-8875d87df3fb/fe5b295f-1a7f-4343-be09-6f42d71d7bcf"
+					(reference "R14")
 					(unit 1)
 				)
 			)
