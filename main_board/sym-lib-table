@@ -8,4 +8,5 @@
   (lib (name "Cmod_S7")(type "KiCad")(uri "${KIPRJMOD}/symbols/Cmod_S7.kicad_sym")(options "")(descr ""))
   (lib (name "bp_filter")(type "KiCad")(uri "${KIPRJMOD}/bp_filter.kicad_sym")(options "")(descr ""))
   (lib (name "step_down_converter")(type "KiCad")(uri "${KIPRJMOD}/step_down_converter.kicad_sym")(options "")(descr ""))
+  (lib (name "SMA_MALE_connector")(type "KiCad")(uri "${KIPRJMOD}/SMA_MALE_connector.kicad_sym")(options "")(descr ""))
 )
