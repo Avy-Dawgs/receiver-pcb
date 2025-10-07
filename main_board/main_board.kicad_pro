@@ -101,7 +101,6 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
-        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -448,13 +447,7 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "LT172x",
-      "AD8031",
-      "Mux",
-      "LT1818",
-      "LTC2315",
-      "footprints",
-      "Cmod_S7"
+      "457k_bp_filter_fp"
     ],
     "pinned_symbol_libs": [
       "LT172x",
@@ -462,7 +455,9 @@
       "Mux",
       "LTC2315_ADC_12",
       "LT1818_OP_AMP",
-      "BAT54_Schottky_Diode"
+      "BAT54_Schottky_Diode",
+      "bp_filter",
+      "step_down_converter"
     ]
   },
   "meta": {
@@ -612,14 +607,6 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -652,6 +639,10 @@
     [
       "4b72c036-9d03-4219-91da-5718aacb6260",
       "Filter"
+    ],
+    [
+      "b34fef32-43cc-43f6-b767-49ac2b6d6756",
+      "step_down_converter"
     ]
   ],
   "text_variables": {}

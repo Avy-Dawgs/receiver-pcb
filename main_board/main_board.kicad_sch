@@ -2654,6 +2654,68 @@
 		)
 	)
 	(sheet
+		(at 175.26 129.54)
+		(size 38.1 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b34fef32-43cc-43f6-b767-49ac2b6d6756")
+		(property "Sheetname" "step_down_converter"
+			(at 175.26 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "step_down_converter.kicad_sch"
+			(at 175.26 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "vin" input
+			(at 175.26 138.43 180)
+			(uuid "6afcc75c-377b-4714-bcff-c239a99ca835")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "vout" output
+			(at 213.36 138.43 0)
+			(uuid "50c51d90-b6c7-433a-a5e7-0fdc2fd8eb38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "main_board"
+				(path "/f3e20914-54f5-4568-9f0b-8875d87df3fb"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 238.76 73.66)
 		(size 29.21 11.43)
 		(exclude_from_sim no)
