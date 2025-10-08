@@ -1323,7 +1323,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "2u"
 			(at 245.11 96.52 90)
 			(effects
 				(font
