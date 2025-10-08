@@ -1344,6 +1344,12 @@
 		(uuid "5ced5b31-eb97-46e3-b95d-a80ae7f71282")
 	)
 	(junction
+		(at 78.74 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68b351ba-f4ec-492f-8ec1-50a702f0caf3")
+	)
+	(junction
 		(at 181.61 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1443,7 +1449,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 156.21) (xy 91.44 156.21)
+			(xy 78.74 156.21) (xy 91.44 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1769,7 +1775,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 85.09 156.21 0)
+		(at 78.74 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1778,7 +1784,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c2281e7-8dd0-45b8-ad03-f1d1b2f7c793")
 		(property "Reference" "#PWR054"
-			(at 85.09 160.02 0)
+			(at 78.74 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1787,7 +1793,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 85.09 151.13 0)
+			(at 78.74 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1795,7 +1801,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 156.21 0)
+			(at 78.74 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1804,7 +1810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 156.21 0)
+			(at 78.74 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1813,7 +1819,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 85.09 156.21 0)
+			(at 78.74 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1894,6 +1900,76 @@
 			(project "main_board"
 				(path "/f3e20914-54f5-4568-9f0b-8875d87df3fb/b34fef32-43cc-43f6-b767-49ac2b6d6756"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 78.74 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ac3898b-3b28-488a-a1e5-b3bd433de9fd")
+		(property "Reference" "C30"
+			(at 82.55 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 82.55 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 79.7052 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 78.74 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9708bb85-e0b1-41ad-b811-d96a4841c193")
+		)
+		(pin "1"
+			(uuid "7e79bbea-84ed-4705-9ee5-e158bf950c24")
+		)
+		(instances
+			(project "main_board"
+				(path "/f3e20914-54f5-4568-9f0b-8875d87df3fb/b34fef32-43cc-43f6-b767-49ac2b6d6756"
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -2460,6 +2536,72 @@
 			(project "main_board"
 				(path "/f3e20914-54f5-4568-9f0b-8875d87df3fb/b34fef32-43cc-43f6-b767-49ac2b6d6756"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c43a383c-38a1-4607-88c8-d644ed557163")
+		(property "Reference" "#PWR040"
+			(at 78.74 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f6d66b1-1d48-4450-a69d-81eb81c9c2fb")
+		)
+		(instances
+			(project "main_board"
+				(path "/f3e20914-54f5-4568-9f0b-8875d87df3fb/b34fef32-43cc-43f6-b767-49ac2b6d6756"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
