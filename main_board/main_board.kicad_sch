@@ -3244,7 +3244,7 @@
 		(uuid "3a27afe4-23cd-4feb-acf0-6241b10e4b37")
 	)
 	(label "Bypass"
-		(at 111.76 36.83 0)
+		(at 55.88 34.29 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3384,7 +3384,7 @@
 		(uuid "ce241a71-eaef-4126-b1b8-92cfbf451905")
 	)
 	(label "Filter_out"
-		(at 55.88 34.29 90)
+		(at 111.76 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3394,7 +3394,7 @@
 		(uuid "d421a151-5de1-4ae3-9382-9cbb9b5cde9f")
 	)
 	(label "PGA_in"
-		(at 177.8 39.37 90)
+		(at 233.68 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3414,7 +3414,7 @@
 		(uuid "e19d3916-12fc-411b-a442-6bf283dd5a92")
 	)
 	(label "Bypass"
-		(at 233.68 41.91 0)
+		(at 177.8 39.37 90)
 		(effects
 			(font
 				(size 1.27 1.27)
