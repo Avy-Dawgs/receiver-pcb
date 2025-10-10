@@ -1960,7 +1960,17 @@
 		)
 		(uuid "80620abb-7d53-42a0-9d11-3eb3c9f4fb30")
 	)
-	(text "TODO: This voltage divider is intended to keep the signal within\n +5V to GND, but this approach need to be verified. (may have to \nbias on both sides of MUX)"
+	(text "TODO: add headers for power and ground: \n+9V \n+5V \nGND"
+		(exclude_from_sim no)
+		(at 114.808 118.364 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a5264ed9-28b8-4241-bf3d-ed22b03e317c")
+	)
+	(text "This voltage divider is intended to keep the signal within\n+5V to GND. Biasing only here should be fine, as the on resistance \nof each mux is very close to being a short circuit."
 		(exclude_from_sim no)
 		(at 70.358 103.378 0)
 		(effects
@@ -1969,16 +1979,6 @@
 			)
 		)
 		(uuid "cbfdc994-2638-4906-9550-4e0b3d81e384")
-	)
-	(text "TODO: calculate coupling capacitor values"
-		(exclude_from_sim no)
-		(at 132.334 99.314 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "daaba353-58a0-429b-a57e-48291970cddc")
 	)
 	(junction
 		(at 247.65 19.05)
