@@ -481,7 +481,9 @@
   "libraries": {
     "pinned_footprint_libs": [
       "457k_bp_filter_fp",
-      "SMA_male_fp"
+      "SMA_male_fp",
+      "linear_regulator_fp",
+      "step_down_converter"
     ],
     "pinned_symbol_libs": [
       "LT172x",

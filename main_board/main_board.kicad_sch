@@ -3720,7 +3720,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" ".15u"
 			(at 163.83 73.66 90)
 			(effects
 				(font
@@ -3788,7 +3788,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "68p"
 			(at 96.52 74.93 90)
 			(effects
 				(font
@@ -4176,7 +4176,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22n"
 			(at 59.69 76.2 90)
 			(effects
 				(font
@@ -4380,7 +4380,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "68p"
 			(at 214.63 73.66 90)
 			(effects
 				(font

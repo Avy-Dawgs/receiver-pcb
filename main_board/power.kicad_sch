@@ -2001,7 +2001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC_05WU-7_DIO"
+		(property "Footprint" "step_down_converter:SOIC_05WU-7_DIO-M"
 			(at 114.3 88.9 0)
 			(effects
 				(font
@@ -2963,7 +2963,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SC-70_C5_MCH"
+		(property "Footprint" "linear_regulator_fp:SC-70_C5_MCH-M"
 			(at 93.98 156.21 0)
 			(effects
 				(font
