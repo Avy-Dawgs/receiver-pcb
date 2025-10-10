@@ -483,7 +483,8 @@
       "457k_bp_filter_fp",
       "SMA_male_fp",
       "linear_regulator_fp",
-      "step_down_converter"
+      "step_down_converter",
+      "pin_header_fp"
     ],
     "pinned_symbol_libs": [
       "LT172x",
@@ -495,7 +496,8 @@
       "bp_filter",
       "step_down_converter",
       "SMA_MALE_connector",
-      "linear_regulartor"
+      "linear_regulartor",
+      "pin_header"
     ]
   },
   "meta": {

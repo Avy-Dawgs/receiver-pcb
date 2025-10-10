@@ -10,4 +10,5 @@
   (lib (name "step_down_converter")(type "KiCad")(uri "${KIPRJMOD}/step_down_converter.kicad_sym")(options "")(descr ""))
   (lib (name "SMA_MALE_connector")(type "KiCad")(uri "${KIPRJMOD}/SMA_MALE_connector.kicad_sym")(options "")(descr ""))
   (lib (name "linear_regulartor")(type "KiCad")(uri "${KIPRJMOD}/linear_regulartor.kicad_sym")(options "")(descr ""))
+  (lib (name "pin_header")(type "KiCad")(uri "${KIPRJMOD}/pin_header.kicad_sym")(options "")(descr ""))
 )
