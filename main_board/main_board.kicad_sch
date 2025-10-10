@@ -3243,7 +3243,7 @@
 		)
 		(uuid "3a27afe4-23cd-4feb-acf0-6241b10e4b37")
 	)
-	(label "Bypass"
+	(label "Bypass_ctrl"
 		(at 55.88 34.29 90)
 		(effects
 			(font
@@ -3323,7 +3323,7 @@
 		)
 		(uuid "90a86b00-1281-4c92-b7ab-bf21f0f1cc44")
 	)
-	(label "Bypass_sig"
+	(label "Bypass_ctrl"
 		(at 110.49 142.24 180)
 		(effects
 			(font
@@ -3413,7 +3413,7 @@
 		)
 		(uuid "e19d3916-12fc-411b-a442-6bf283dd5a92")
 	)
-	(label "Bypass"
+	(label "Bypass_ctrl"
 		(at 177.8 39.37 90)
 		(effects
 			(font
