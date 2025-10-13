@@ -7,4 +7,5 @@
   (lib (name "linear_regulator_fp")(type "KiCad")(uri "${KIPRJMOD}/linear_regulator_fp.pretty")(options "")(descr ""))
   (lib (name "step_down_converter")(type "KiCad")(uri "${KIPRJMOD}/step_down_converter.pretty")(options "")(descr ""))
   (lib (name "pin_header_fp")(type "KiCad")(uri "${KIPRJMOD}/pin_header_fp.pretty")(options "")(descr ""))
+  (lib (name "Graphics")(type "KiCad")(uri "${KIPRJMOD}/graphics.pretty")(options "")(descr "graphics and logos"))
 )
