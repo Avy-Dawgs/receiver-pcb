@@ -13,4 +13,5 @@
   (lib (name "AD8031")(type "KiCad")(uri "${KIPRJMOD}/footprints/AD8031.pretty")(options "")(descr ""))
   (lib (name "LT172x")(type "KiCad")(uri "${KIPRJMOD}/footprints/LT172x.pretty")(options "")(descr ""))
   (lib (name "LTC2315")(type "KiCad")(uri "${KIPRJMOD}/footprints/LTC2315.pretty")(options "")(descr ""))
+  (lib (name "uofu_graphic")(type "KiCad")(uri "${KIPRJMOD}/uofu_graphic.pretty")(options "")(descr ""))
 )
