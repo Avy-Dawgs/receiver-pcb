@@ -5004,7 +5004,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DCK6"
+		(property "Footprint" "Mux:DCK6"
 			(at 205.105 45.72 0)
 			(effects
 				(font
@@ -5086,7 +5086,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DCK6"
+		(property "Footprint" "Mux:DCK6"
 			(at 83.185 40.64 0)
 			(effects
 				(font

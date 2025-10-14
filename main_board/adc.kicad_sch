@@ -1114,6 +1114,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Note that the footprint for the LT1818 is the same as for the LT1722, \nthats why the footprint from that library is used here."
+		(exclude_from_sim no)
+		(at 65.786 155.702 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2c7d0dd9-8dd4-44e6-b696-4cbca507617a")
+	)
 	(text "decoupling cap for op-amp (ADC already has required coupling)"
 		(exclude_from_sim no)
 		(at 48.006 48.768 0)
@@ -1856,7 +1866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSOT-23_TS8_LIT"
+		(property "Footprint" "LTC2315:TSOT-23_TS8_LIT"
 			(at 148.59 130.81 0)
 			(effects
 				(font
@@ -2350,7 +2360,7 @@
 				)
 			)
 		)
-		(property "Footprint" "S_5_ADI"
+		(property "Footprint" "LT172x:S_5_ADI"
 			(at 90.17 138.43 0)
 			(effects
 				(font

@@ -2163,7 +2163,7 @@
 				)
 			)
 		)
-		(property "Footprint" "S_5_ADI"
+		(property "Footprint" "LT172x:S_5_ADI"
 			(at 206.375 105.41 0)
 			(effects
 				(font

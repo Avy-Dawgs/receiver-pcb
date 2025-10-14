@@ -2223,7 +2223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RJ_5_ADI"
+		(property "Footprint" "AD8031:RJ_5_ADI"
 			(at 95.25 176.53 0)
 			(effects
 				(font
@@ -3048,7 +3048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "S_5_ADI"
+		(property "Footprint" "LT172x:S_5_ADI"
 			(at 123.825 101.6 0)
 			(effects
 				(font
