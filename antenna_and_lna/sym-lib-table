@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "custom")(type "KiCad")(uri "${KIPRJMOD}/custom.kicad_sym")(options "")(descr ""))
+  (lib (name "SMA")(type "KiCad")(uri "${KIPRJMOD}/SMA.kicad_sym")(options "")(descr ""))
+  (lib (name "pin_header")(type "KiCad")(uri "${KIPRJMOD}/pin_header.kicad_sym")(options "")(descr ""))
 )
